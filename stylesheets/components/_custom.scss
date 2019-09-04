@@ -1,0 +1,34 @@
+
+
+.btn-main-lighter{
+    @include button-variant(#EAF0ED,#EAF0ED);
+}
+
+.btn-brand-light{
+    @include button-variant(#fff, #EAF0ED);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+//select 下拉式選單旁的箭頭消失
+.form-control.form-control-lg {
+    -webkit-appearance: none;
+  }
+
+
+//checkout-2
+.nav.nav-dark{
+    &.nav-pills > .nav-link{
+        border: 1px solid #EAF0ED; 
+    }
+    .nav-link{
+        color: #EAF0ED;
+    }
+    .nav-link.active{
+        color: theme-color('main');
+        background-color: #EAF0ED;
+    }
+}
